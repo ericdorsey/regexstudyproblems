@@ -128,7 +128,8 @@ l3YI3l29WF5p2vH3MR48780280dt2Ydb9Vbsq6l34C2F
 24TPLfTe02bnf5GE6E50819394S4919Q6f8d5C838gNd
 ```
 
-Can we somehow use the fact that that the thing we care about starts at the 19th character?   
-cV7B4E9F0405lp6b7S&#xA71C;181865969kr9sl3Z586i2K64d2
+Can we somehow use the fact that that the thing we care about starts at the 19th character? ie:  
+
+cV7B4E9F0405lp6b7S<b>&#xA71C;</b>181865969kr9sl3Z586i2K64d2
 
 Can we still Match & Capture `18186596` from the first row, `62159744` from the 2nd, etc? 
