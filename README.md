@@ -1,6 +1,7 @@
 ## Table of Contents
 [Match Times or "n/a"](#match-times-or-na)  
 [Match Title, Edition, Author](#match-title-edition-author)  
+[Match Spaces Between First and Last Names And Substitute with `_`](#match-spaces-between-first-and-last-names-and-substitute-with-_)  
 [Match Only Numbers Surrounded By |](#match-only-numbers-surrounded-by-)  
 
 ### Match Times or "n/a"
@@ -65,7 +66,7 @@ Ebook for; Solutions Manual For Fundamentals of engineering design, 2e Barry Hym
 #### Goal
 Match and Capture book title, edition, and author(s) 
 
-### Match Spaces And Substitute with `_`
+### Match Spaces Between First and Last Names And Substitute with `_`
 Given:
 
 ```
@@ -84,8 +85,6 @@ Dwight Norton
 Bob Sandoval
 Shelly Meyer
 ```
-
-(From: This was needed to adjust a query where names were given in one format, but needed to be input in another)
 
 #### Goal
 Match every name in the list, substituting the space in between first and last name with an underscore (`_`)
