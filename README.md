@@ -1,7 +1,7 @@
 ## Table of Contents
 [Match Times or "n/a"](#match-times-or-na)  
 [Match Title, Edition, Author](#match-title-edition-author)  
-[Match Only Numbers Surrounded By `|`](#match-only-numbers-surrounded-by|)
+[Match Only Numbers Surrounded By `|`](#match-only-numbers-surrounded-by-|)
 
 ### Match Times or "n/a"
 > Beginner regex question, example within
