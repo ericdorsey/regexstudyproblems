@@ -11,7 +11,7 @@
 (From https://www.reddit.com/r/regex/comments/f0i29z/beginner_regex_question_example_within/)
 
 #### Goal
-* Match and capture `3pm - 7pm`, allowing for other times too, like `10am - 2pm`
+* Match and Capture `3pm - 7pm`, allowing for other times too, like `10am - 2pm`
   * Bonus: Capture each time (ie, `3pm` and `7pm` distinctly)
 * If `n/a` appears instead of the time range in the quotes, match & capture that instead 
 
@@ -54,7 +54,7 @@ Ebook for; Solutions Manual For Fundamentals of engineering design, 2e Barry Hym
 (From spam posted to PyTutor Google group mailing list)
 
 #### Goal
-* Match and capture book title, edition, and author(s) 
+* Match and Capture book title, edition, and author(s) 
 
 ### Match Spaces And Substitute with `_`
 Given:
@@ -76,26 +76,25 @@ Bob Sandoval
 Shelly Meyer
 ```
 
-#### Goal
-* Match every name in the list, substituting the space in between first and last with a `_`
+(From: This was needed to adjust a query where names were given in one format, but needed to be input in another)
 
-### Match Only Numbers Surrounded by `|`
+#### Goal
+* Match every name in the list, substituting the space in between first and last name with an underscore (`_`)
+
+### Match Only Numbers Surrounded By `|`
 Given:
 ```
-178r48173yj1mt0n8w|72501851|ccz4n77oja856r0nq7
-98stcdd224p180b6r6|90545377|6k3224v77d7edwkmjp
-1n696w31qi86417l9e|22578129|57d7n3y98we2v028ki
-z0h5vegk2atg29994m|48238338|v01id6yjme45sgfy4b
-bp759sly5wy59256r1|55426475|5212qymse487aw1l75
-854osj4eu455e3n585|27080295|2j87yn55br0wjt9d1k
-725j62068a33ucst13|63057682|9uyze6lor531c2u975
-jr27yh6s27608453s6|60882646|b117t2f47pz80p8554
-82f44o2c9cg1iuowc0|96469770|w6cyj3ii972kdw4310
-60y17gz39voty4j4ev|79845428|lreudgs0dzww2a48r7
-has34yfij675u73w00|28311720|4pgp3334t5v4d37g4d
-w9am0umj8tcar86121|32788422|5q495wg4l4g5l4rsa6
-f1w9fsqoo7zf6g63tk|37087961|z8ibf0vaevyv070l61
+145O2911mS2blzjez3|20555898|640s5b833L182eWlP0
+v020Rf6M9g5351p8sy|11947269|06s0v73BCM15128A37
+5731iMvwnn5KO47Q6m|38101594|46JE98156u80544LBO
+IlA38V3mB9d72DOryS|34151278|R6252r2903yM2c2106
+13VVGNF6QD36CG94j6|49926532|08A4fK6m1aM91YTKDO
+94Uf03M53z8082nDs9|04914075|z42DhL70YG58074376
+8ESiv3H4U94F7Oodpg|69280910|9gCqvbJ84q57u5L76F
+T1RB164oG46RfyDm3u|65945168|63u5vy3ues3998S43F
+25Sj5Ko67375ER5ZAO|88148946|d1BZI323ElK4bo4av9
 ```
 
 #### Goal
-* Match and capture only numbers between `|`, so in line 1 get only `72501851`. Do this for the entire text
+* Match and Capture only numbers between `|`, so in line 1 get only `72501851`. Do this for the entire text
+
