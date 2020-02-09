@@ -1,7 +1,12 @@
+## Table of Contents
+[Match Times or "n/a"](#match-times-or-na)  
+[Match Title, Edition, Author](#match-tittle-edition-author)  
+
 ### Match Times or "n/a"
 > Beginner regex question, example within
 > I have the text:
 
+Given
 ```
 "openingHoursMonday";s:9:"3pm - 7pm"
 ```
@@ -15,7 +20,7 @@
   * Bonus: Capture each time (ie, `3pm` and `7pm` distinctly)
 * If `n/a` appears instead of the time range in the quotes, match & capture that instead 
 
-#### Example Match Text
+#### Text To Test Against
 ```
 "openingHoursMonday";s:9:"3pm - 7pm"
 "openingHoursMonday";s:9:"n/a"
