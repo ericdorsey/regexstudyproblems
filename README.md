@@ -17,7 +17,6 @@ Given
 
 #### Goal
 Match and Capture `3pm - 7pm`, allowing for other times too, like `10am - 2pm` 
-(Bonus: Capture each time (ie, `3pm` and `7pm` distinctly))
 
 If `n/a` appears instead of the time range in the quotes, match & capture that instead 
 
@@ -28,6 +27,9 @@ If `n/a` appears instead of the time range in the quotes, match & capture that i
 "openingHoursMonday";s:9:"10am - 2pm"
 "openingHoursMonday";s:9:"9pm - 3am"
 ```
+
+#### Bonus
+Match and Capture each time (ie, `3pm` and `7pm`) distinctly
 
 ### Match Title, Edition, Author
 
@@ -89,6 +91,7 @@ Match every name in the list, substituting the space in between first and last n
 
 ### Match Only Numbers Surrounded By `|`
 Given:
+
 ```
 145O2911mS2blzjez3|20555898|640s5b833L182eWlP0
 v020Rf6M9g5351p8sy|11947269|06s0v73BCM15128A37
@@ -111,3 +114,18 @@ Result should look like:
 38101594
 ...continues...
 ```
+
+#### Bonus
+What if there was no pipes (`|`) surrounding the numbers?
+```
+cV7B4E9F0405lp6b7S181865969kr9sl3Z586i2K64d2
+725Y0nHM4Qsv3u1vF762159744j412162NVN4961AS7Z
+47t15n498OQG1329F6534864545uKn82d79733Rz548h
+4498UEN5KPj9F55T0G488184603rD57U038KMpL98T5C
+l3YI3l29WF5p2vH3MR48780280dt2Ydb9Vbsq6l34C2F
+640dKn8147463N1g9V60033183u5WO16qH45jF92U1I3
+90DC180I0335lQ9r495600392430Y03H8nn3L62t5Aab
+24TPLfTe02bnf5GE6E50819394S4919Q6f8d5C838gNd
+```
+
+cV7B4E9F0405lp6b7S1&#8942;81865969kr9sl3Z586i2K64d2
