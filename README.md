@@ -109,5 +109,5 @@ Result should look like:
 20555898
 11947269
 38101594
-... etc..
+...continues...
 ```
