@@ -98,4 +98,4 @@ f1w9fsqoo7zf6g63tk|37087961|z8ibf0vaevyv070l61
 ```
 
 #### Goal
-* Match and capture only numbers between `|`, so in line 1 get only `72501851` in entire text
+* Match and capture only numbers between `|`, so in line 1 get only `72501851`. Do this for the entire text
