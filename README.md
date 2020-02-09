@@ -78,3 +78,24 @@ Shelly Meyer
 
 #### Goal
 * Match every name in the list, substituting the space in between first and last with a `_`
+
+### Match Only Numbers Surrounded by `|`
+Given:
+```
+178r48173yj1mt0n8w|72501851|ccz4n77oja856r0nq7
+98stcdd224p180b6r6|90545377|6k3224v77d7edwkmjp
+1n696w31qi86417l9e|22578129|57d7n3y98we2v028ki
+z0h5vegk2atg29994m|48238338|v01id6yjme45sgfy4b
+bp759sly5wy59256r1|55426475|5212qymse487aw1l75
+854osj4eu455e3n585|27080295|2j87yn55br0wjt9d1k
+725j62068a33ucst13|63057682|9uyze6lor531c2u975
+jr27yh6s27608453s6|60882646|b117t2f47pz80p8554
+82f44o2c9cg1iuowc0|96469770|w6cyj3ii972kdw4310
+60y17gz39voty4j4ev|79845428|lreudgs0dzww2a48r7
+has34yfij675u73w00|28311720|4pgp3334t5v4d37g4d
+w9am0umj8tcar86121|32788422|5q495wg4l4g5l4rsa6
+f1w9fsqoo7zf6g63tk|37087961|z8ibf0vaevyv070l61
+```
+
+#### Goal
+* Match and capture only numbers between `|`, so in line 1 get only `72501851` in entire text
