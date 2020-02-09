@@ -55,3 +55,26 @@ Ebook for; Solutions Manual For Fundamentals of engineering design, 2e Barry Hym
 
 #### Goal
 * Match and capture book title, edition, and author(s) 
+
+### Match Spaces And Substitute with `_`
+Given:
+
+```
+Roy Mitchell
+Tricia Willis
+Veronica Brooks
+Jimmy Tucker
+Johnnie Stokes
+Kristine Day
+Teri James
+Marcia Moran
+Judy Barnett
+Nelson Nunez
+Cheryl Washington
+Dwight Norton
+Bob Sandoval
+Shelly Meyer
+```
+
+#### Goal
+* Match every name in the list, substituting the space in between first and last with a `_`
