@@ -1,6 +1,6 @@
 ## Table of Contents
 [Match Times or "n/a"](#match-times-or-na)  
-[Match Title, Edition, Author](#match-tittle-edition-author)  
+[Match Title, Edition, Author](#match-title-edition-author)  
 
 ### Match Times or "n/a"
 > Beginner regex question, example within
