@@ -16,9 +16,10 @@ Given
 (From https://www.reddit.com/r/regex/comments/f0i29z/beginner_regex_question_example_within/)
 
 #### Goal
-* Match and Capture `3pm - 7pm`, allowing for other times too, like `10am - 2pm`
-  * Bonus: Capture each time (ie, `3pm` and `7pm` distinctly)
-* If `n/a` appears instead of the time range in the quotes, match & capture that instead 
+Match and Capture `3pm - 7pm`, allowing for other times too, like `10am - 2pm` 
+(Bonus: Capture each time (ie, `3pm` and `7pm` distinctly))
+
+If `n/a` appears instead of the time range in the quotes, match & capture that instead 
 
 #### Text To Test Against
 ```
@@ -59,7 +60,7 @@ Ebook for; Solutions Manual For Fundamentals of engineering design, 2e Barry Hym
 (From spam posted to PyTutor Google group mailing list)
 
 #### Goal
-* Match and Capture book title, edition, and author(s) 
+Match and Capture book title, edition, and author(s) 
 
 ### Match Spaces And Substitute with `_`
 Given:
@@ -84,7 +85,7 @@ Shelly Meyer
 (From: This was needed to adjust a query where names were given in one format, but needed to be input in another)
 
 #### Goal
-* Match every name in the list, substituting the space in between first and last name with an underscore (`_`)
+Match every name in the list, substituting the space in between first and last name with an underscore (`_`)
 
 ### Match Only Numbers Surrounded By `|`
 Given:
@@ -101,5 +102,12 @@ T1RB164oG46RfyDm3u|65945168|63u5vy3ues3998S43F
 ```
 
 #### Goal
-* Match and Capture only numbers between `|`, so in line 1 get only `72501851`. Do this for the entire text
+Match and Capture only numbers between pipes (`|` and `|`)
 
+Result should look like:  
+```
+20555898
+11947269
+38101594
+... etc..
+```
