@@ -3,6 +3,7 @@
 [Match Title, Edition, Author](#match-title-edition-author)  
 [Match Spaces Between First and Last Names And Substitute with `_`](#match-spaces-between-first-and-last-names-and-substitute-with-_)  
 [Match Only Numbers Surrounded By |](#match-only-numbers-surrounded-by-)  
+[Match Only Subdomains](#match-only-subdomains)  
 
 ### Match Times or "n/a"
 > Beginner regex question, example within
@@ -133,3 +134,19 @@ Can we somehow use the fact that that the thing we care about starts at the 19th
 cV7B4E9F0405lp6b7S&#8594;181865969kr9sl3Z586i2K64d2
 
 Can we still Match & Capture `18186596` from the first row, `62159744` from the 2nd, etc? 
+
+### Match Only Subdomains
+Given:
+```
+foo.mydomain.com
+mydomain.com
+set user settings at user.mydomain.com/settings
+signup.mydomain.com
+google.com
+hello.net
+whatever.mydomain.net
+what if we're testing.mydomain.com
+```
+
+#### Goal
+Match only the subdomains of `mydomain.com`, such as `foo` and `testing`, etc.
