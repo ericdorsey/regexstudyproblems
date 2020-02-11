@@ -5,6 +5,7 @@
 [Match Only Numbers Surrounded By |](#match-only-numbers-surrounded-by-)  
 [Match Only Subdomains](#match-only-subdomains)  
 [Picky `m` Matching](#picky-m-matching)  
+["Select the Definite Article and the Indefinite Articles"](#select-the-definite-article-and-the-indefinite-articles)  
 
 ### Match Times or "n/a"
 > Beginner regex question, example within
@@ -167,6 +168,37 @@ the m. bison filter
 the i'm filter
 the them filter
 ```
+(From https://www.reddit.com/r/regex/comments/f1uovo/a_regex_filter_with_a_bunch_of_different/)
 
 #### Goal
 Match and capture only the `m`'s in the first seven lines, but nothing (and certainly not the `m`'s!) in the last 3 lines.
+
+### "Select the Definite Article and the Indefinite Articles"
+Given:
+> I need to select "The" or "the", "An" or "an", and "A" or "a" in a paragraph, without selecting these letters in the middle of a word.
+
+(From https://www.reddit.com/r/regex/comments/f0m8y0/regex_to_select_the_definite_article_and_the/)
+
+#### Goal
+Match and capture `the`, `The`, `an`, `An`, `a` or `A` (don't match if these appear inside other words) in the below:
+```
+Now is the time.
+The quick brown fox had a bad day.
+Theodore took a long time.
+Theodore took an long time.
+Theodore took the long time.
+A stitch in time.
+An extraordinary day.
+The extraordinary day.
+```
+
+But not below (`a`, `an`, `the` should not match within `Another`):
+```
+Another time
+Bad syntax the.
+Bad syntax a.
+Bad syntax an.
+Bad syntax the
+Bad syntax a
+Bad syntax an
+```
