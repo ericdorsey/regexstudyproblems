@@ -6,6 +6,8 @@
 [Match Only Subdomains](#match-only-subdomains)  
 [Picky `m` Matching](#picky-m-matching)  
 ["Select the Definite Article and the Indefinite Articles"](#select-the-definite-article-and-the-indefinite-articles)  
+[Fix Your Boss\'s Ugly Notes](#fix-your-bosss-ugly-notes)  
+
 
 ### Match Times or "n/a"
 > Beginner regex question, example within
@@ -201,4 +203,31 @@ Bad syntax an.
 Bad syntax the
 Bad syntax a
 Bad syntax an
+```
+
+### Fix Your Boss's Ugly Notes
+Your boss comes to you with some monthly bills tracking they've been doing in `Notepad.exe`. But the problem is your boss has 
+been really inconsistent with the formatting! Your boss said they sometimes added a `*` to some entries, but they don't remember
+why, so it's safe to just get rid of that. Also, your boss wasn't very consistent with format, sometimes using `mo.`, or a `/`
+instead of a space between the dollar amount and month. And sometimes the exact amount including cents isn't there, just the 
+dollar amount. they want each dollar & cents amount printed out, followed by a comma, folowed by "monthly", followed by a comma, 
+then "for {purpose}". 
+
+Can you help clean this up? 
+
+```
+$65.37 mo. Internet
+*$114 month Phone
+$10 mo Netflix
+$750/mon. Mortgage
+*$8.40/month Spotify
+```
+
+#### Goal
+```
+$65.37, monthly, for Internet
+$114, monthly, for Phone
+$10, monthly, for Netflix
+$750, monthly, for Mortgage
+$8.40, monthly, for Spotify
 ```
