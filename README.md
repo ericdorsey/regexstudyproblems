@@ -4,6 +4,7 @@
 [Match Spaces Between First and Last Names And Substitute with `_`](#match-spaces-between-first-and-last-names-and-substitute-with-_)  
 [Match Only Numbers Surrounded By |](#match-only-numbers-surrounded-by-)  
 [Match Only Subdomains](#match-only-subdomains)  
+[Picky `m` Matching](#picky-m-matching)  
 
 ### Match Times or "n/a"
 > Beginner regex question, example within
@@ -150,3 +151,22 @@ what if we're testing.mydomain.com
 
 #### Goal
 Match only the subdomains of `mydomain.com`, such as `foo` and `testing`, etc.
+
+### Picky 'm' Matching
+Given:
+```
+m is
+the .m. filter
+is m the 
+m is
+the 'm filter
+the m. filter
+the .m filter
+
+the m. bison filter
+the i'm filter
+the them filter
+```
+
+#### Goal
+Match and capture only the `m`'s in the first seven lines, but nothing (and certainly not the `m`'s!) in the last 3 lines.
