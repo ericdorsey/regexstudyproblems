@@ -210,7 +210,7 @@ Your boss comes to you with some monthly bills tracking they've been doing in `N
 been really inconsistent with the formatting! Your boss said they sometimes added a `*` to some entries, but they don't remember
 why, so it's safe to just get rid of that. Also, your boss wasn't very consistent with format, sometimes using `mo.`, or a `/`
 instead of a space between the dollar amount and month. And sometimes the exact amount including cents isn't there, just the 
-dollar amount. they want each dollar & cents amount printed out, followed by a comma, folowed by "monthly", followed by a comma, 
+dollar amount. They want each dollar & cents amount printed out, followed by a comma, folowed by "monthly", followed by a comma, 
 then "for {purpose}". 
 
 Can you help clean this up? 
