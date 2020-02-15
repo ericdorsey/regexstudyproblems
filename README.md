@@ -7,6 +7,7 @@
 [Picky `m` Matching](#picky-m-matching)  
 ["Select the Definite Article and the Indefinite Articles"](#select-the-definite-article-and-the-indefinite-articles)  
 [Fix Your Boss\'s Ugly Notes](#fix-your-bosss-ugly-notes)  
+[Number With Upper Limit and Optional Decimal](#number-with-upper-limit-and-optional-decimal)  
 
 
 ### Match Times or "n/a"
@@ -231,3 +232,35 @@ $10, monthly, for Netflix
 $750, monthly, for Mortgage
 $8.40, monthly, for Spotify
 ```
+
+### Number With Upper Limit and Optional Decimal
+> i am new to regex and need help in trying to achieve this. we have number input from user in the range of 0 to 120 with 1 decimal value. so user can enter 0,10,10.5,10.7,100.8,120 But the max value should be 120 and only one decimal allowed. can some of the experts help?
+
+#### Goal
+These should match:
+```
+0
+75.2
+120
+120.0
+119
+117
+85.7
+92
+1
+22
+```
+
+These should not:
+```
+119.9827492749
+92.50779
+120.00000
+121
+120.248957
+120.7
+120.1
+50.378
+```
+
+(From: https://www.reddit.com/r/regex/comments/f3wmkn/regex_number_with_one_decimal_help/)
