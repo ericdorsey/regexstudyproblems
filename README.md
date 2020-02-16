@@ -264,3 +264,40 @@ These should not:
 ```
 
 (From: https://www.reddit.com/r/regex/comments/f3wmkn/regex_number_with_one_decimal_help/)
+
+### Grab The Font Family Name From A URL
+Given:
+
+> The regex should extract everything between ...family=<what I want>
+
+```
+https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap
+
+https://fonts.googleapis.com/css?family=Roboto+Condensed+word:300,300i,400,400i,700,700i&display=swap
+
+https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap
+
+what if it's in the middle https://fonts.googleapis.com/css?family=Roboto+Condensed of some other text, though? 
+
+https://fonts.googleapis.com/css?family=Roboto&display=swap
+
+What if the font is in the middle of other text and has more parts to it https://fonts.googleapis.com/css?family=Roboto+Condensed+Radical+Hurray and still followed by some other text?
+
+https://fonts.googleapis.com/css?family=Roboto+Rad+Okay+Zoom+Derp+Test+Okay+Eight+Starbucks+Bold&display=swap
+```
+
+#### Goal
+
+Match & Capture only the Font names from the HTML above, the `Font+Plus+Parts`, ie:
+
+```
+Roboto+Condensed
+Roboto+Condensed+word
+Roboto
+Roboto+Condensed+Radical+Hurray
+Roboto+Rad+Okay+Zoom+Derp+Test+Okay+Eight+Starbucks+Bold
+```
+
+etc.
+
+(From: https://www.reddit.com/r/regex/comments/f4qi4n/please_can_someone_fix_my_regex/)
