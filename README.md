@@ -9,6 +9,7 @@
 [Fix Your Boss\'s Ugly Notes](#fix-your-bosss-ugly-notes)  
 [Number With Upper Limit and Optional Decimal](#number-with-upper-limit-and-optional-decimal)  
 [Grab The Font Family Name From A URL](#grab-the-font-family-name-from-a-url)  
+[Regex Pattern To Account For All The Options In A Config File](#regex-pattern-to-account-for-all-the-options-in-a-config-file)  
 
 
 ### Match Times or "n/a"
@@ -302,3 +303,40 @@ Roboto+Rad+Okay+Zoom+Derp+Test+Okay+Eight+Starbucks+Bold
 etc.
 
 (From: https://www.reddit.com/r/regex/comments/f4qi4n/please_can_someone_fix_my_regex/)
+
+### Regex Pattern To Account For All The Options In A Config File
+Given:
+
+> Using Python 3.7, I'm writing a script to parse out options from a config file
+
+```
+# a_commented_out_option_with_no_value =
+an_enabled_binary_option = false
+an_enabled_binary_option = "true"
+# a_commented_out_binary_option = true
+an_integer_option = 1
+a_decimal_option = 1.1
+a_string_option = "with-quotes"
+another_string_option = withoutquotes
+a_path_option = "/path/to/file1.txt"
+a_really_really_really_really_long_option = "sigh"
+```
+
+#### Goal
+Match and capture both the configuration option, and configuration value from the text above (but don't capture quotes (`"`) if present in the config values).
+
+Example desired match / capture output from above (note that in the first config option, `a_commented_out_option_with_no_value`, there is no config value to be captured, so only capture the config option itself in this case):
+
+```
+a_commented_out_option_with_no_value 
+an_enabled_binary_option false
+an_enabled_binary_option true
+a_commented_out_binary_option true
+an_integer_option 1
+a_decimal_option 1.1
+a_string_option with-quotes
+another_string_option withoutquotes
+a_path_option /path/to/file1.txt
+a_really_really_really_really_long_option sigh
+
+(From: https://www.reddit.com/r/regex/comments/f7joy2/trying_to_find_a_regex_pattern_or_patterns_to/)
