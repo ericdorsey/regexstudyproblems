@@ -10,6 +10,7 @@
 [Number With Upper Limit and Optional Decimal](#number-with-upper-limit-and-optional-decimal)  
 [Grab The Font Family Name From A URL](#grab-the-font-family-name-from-a-url)  
 [Regex Pattern To Account For All The Options In A Config File](#regex-pattern-to-account-for-all-the-options-in-a-config-file)  
+[Match Certain c's and v's Followed by Numbers](#match-certain-cs-and-vs-followed-by-numbers)  
 
 
 ### Match Times or "n/a"
@@ -338,5 +339,42 @@ a_string_option with-quotes
 another_string_option withoutquotes
 a_path_option /path/to/file1.txt
 a_really_really_really_really_long_option sigh
+```
 
 (From: https://www.reddit.com/r/regex/comments/f7joy2/trying_to_find_a_regex_pattern_or_patterns_to/)
+
+
+### Match Certain c's and v's Followed by Numbers
+
+> Need a regex in python to match c/v or both and a number between 1-5 but im struggling a little.
+
+Given:
+
+Examples of matching strings:
+
+```
+c1
+c4
+v2
+v5
+cv3
+vc5
+```
+
+
+Examples of non matching strings:
+
+```
+vv3
+cc2
+vvc2
+cv
+c
+v
+cv9
+vc8
+v8
+c6
+```
+
+(From: https://www.reddit.com/r/regex/comments/fd7i20/basic_python_matching_regex_help/)
