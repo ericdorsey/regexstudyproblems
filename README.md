@@ -377,4 +377,9 @@ v8
 c6
 ```
 
+#### Goal
+Match and capture `c` followed by a digit in the range of 1 through 5, or `v` followed by a digit in the range of 1 through 5, or `cv` or `vc` followed by a digit in the range of 1 through 5. Don't match if preceded by an extra `c` or `v`, and don't match if 
+
+(use examples of matching and non matching above)
+
 (From: https://www.reddit.com/r/regex/comments/fd7i20/basic_python_matching_regex_help/)
