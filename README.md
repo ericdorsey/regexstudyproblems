@@ -75,6 +75,65 @@ Ebook for; Solutions Manual For Fundamentals of engineering design, 2e Barry Hym
 #### Goal
 Match and Capture book title, edition, and author(s) 
 
+#### Bonus
+Match this extra text, which also introduces digits into titles
+
+```
+Ebook for; Solutions Manual For; Test Bank for Principles of Macroeconomics, 6e Robert  Frank, Ben  Bernanke, Kate Antonovics, Ori Heffetz
+Ebook for; Solutions Manual For; Test Bank for Principles of Macroeconomics, 7e Robert  Frank, Ben  Bernanke, Kate Antonovics, Ori Heffetz
+Ebook for; Solutions Manual For; Test Bank for Sociology, 17e John  Macionis
+Ebook for; Solutions Manual For; Test Bank for Technology In Action Complete, 15e Alan Evans, Kendall Martin, Jonathan Weyers, Mary Anne Poatsy
+Ebook for; Solutions Manual For; Test Bank for Accounting What the Numbers Mean , 12e David Marshall, Wayne McManus, Daniel Viele
+Ebook for; Solutions Manual For; Test Bank for Advanced Accounting 4e Robert Halsey Patrick Hopkins
+Ebook for; Solutions Manual For; Test Bank for Technology In Action Complete, 16e Alan Evans, Kendall Martin, Jonathan Weyers, Mary Anne Poatsy
+Ebook for; Solutions Manual For; Test Bank for The World of Psychology, 8th Canadian Edition, DSM-5 Update Edition, 8e Samuel  Wood, Ellen Green Wood, Denise Boyd, Eileen Wood, Serge Desmarais
+Ebook for; Test Bank for Canada's Politics, Democracy, Diversity and Good Government, 3e Eric Mintz, Livianna Tossutti, Christopher Dunn
+Ebook for; Solutions Manual For Biology Laboratory Manual, 12e Darrell  Vodopich, Moore
+Ebook for; Solutions Manual For; Test Bank for Consumer Behavior Buying, Having, and Being, 12e Michael Solomon
+Ebook for; Solutions Manual For; Test Bank for Criminal Behavior A Psychological Approach, 11e Curt Bartol, Anne Bartol
+Ebook for; Solutions Manual For; Test Bank for Using Sage 50 Accounting 2018 by Mary Purbhoo
+Ebook for; Solutions Manual For; Test Bank for Biochemistry, 1e Roger Miesfeld, Megan McEvoy
+Ebook for; Solutions Manual For; Test Bank for Principles of Animal Behavior, 3e Lee Alan Dugatkin
+Ebook for; Solutions Manual For; Test Bank for Sociology in Action A Canadian Perspective, 2e Diane Symbaluk, Tami Bereska
+Ebook for; Solutions Manual For; Test Bank for Principles of Marketing, 17e, Philip Kotler, Gary Armstrong
+Ebook for; Solutions Manual For; Test Bank for Horngren's Financial & Managerial Accounting, The Managerial Chapters, 6e Tracie  Nobles Brenda  Mattison Ella Mae Matsumura
+Ebook for; Solutions Manual For Introduction to Sports Medicine and Athletic Training, 2e Robert France
+Ebook for; Solutions Manual For; Test Bank for Sociology in Action A Canadian Perspective, 3e Diane Symbaluk, Tami Bereska
+Ebook for; Solutions Manual For; Test Bank for Financial Accounting and Reporting, A Global Perspective, 5e Hervé Stolowy, Michel  Lebas, Yuan Ding
+Ebook for; Solutions Manual For; Test Bank for Development Through the Lifespan, 7e Laura Berk
+Ebook for; Solutions Manual For Essentials of Business Communication, 9th Canadian Edition, 9e Mary Ellen Guffey, Richard Almonte
+Ebook for; Test Bank for Cognitive Psychology Connecting Mind, Research and Everyday Experience 4e Bruce Goldstein
+Ebook for; Solutions Manual For; Test Bank for Introduction to Clinical Psychology, 4e Catherine Lee
+Ebook for; Solutions Manual For; Test Bank for Business Math, 11e Cheryl Cleaves, Jeffrey Noble
+Ebook for; Solutions Manual For; Test Bank for Developmental Mathematics, 9e Marvin Bittinger, Judith Beecher
+Ebook for; Solutions Manual For; Test Bank for Business Law and the Legal Environment, 2.0 Mayer, Warner, Siedel, Lieberman foo bar baz 
+Ebook for; Solutions Manual For; Test Bank for Meteorology Today An Introduction to Weather, Climate, and the Environment, 12e Donald Ahrens
+Ebook for; Solutions Manual For; Test Bank for Organizational Behavior Bridging Science and Practice, 3.0 Talya Bauer, Berrin Erdogan
+Ebook for; Solutions Manual For; Test Bank for Architectural Drafting and Design, 7e Alan Jefferis, David Madsen, David Madsen
+Ebook for; Test Bank for Life in the Universe, 4e Jeffrey  Bennett, Seth Shostak
+Ebook for; Solutions Manual For; Test Bank for Foundations of Astronomy, 14e Michael Seeds, Dana Backman
+Ebook for; Solutions Manual For; Test Bank for Foundations of Astronomy, 13e Michael Seeds, Dana Backman
+Ebook for; Solutions Manual For; Test Bank for Integrated Science, 7e Bill Tillery, Eldon Enger, Frederick Ross
+Ebook for; Solutions Manual For; Differential Equations 2e James  Brannan, William Boyce
+Ebook for; Solutions Manual For; Test Bank for Anatomy, Physiology, and Disease An Interactive Journey for Health Professions, 2e Bruce Colbert, Jeff Ankney, Karen Lee
+Ebook for; Solutions Manual For; Test Bank for Management A Practical Introduction, 8e Angelo Kinicki, Brian  Williams
+Ebook for; Solutions Manual For; Test Bank for Prehospital Emergency Care 11e Joseph Mistovich Keith Karren
+Ebook for; Test Bank for Businesss Intelligence and Analytics Systems for Decision Support 10e Ramesh Sharda?
+Ebook for; Solutions Manual For Fundamentals of Electrical Circuits, 6e Charles Alexander, Matthew Sadiku
+Ebook for; Solutions Manual For Fundamentals of engineering design, 2e Barry Hyman
+Ebook for; Solutions Manual For; Test Bank for Looking Out, Looking In, 15e Ronald  Adler, Russell  Proctor
+Ebook for; Solutions Manual For; Test Bank for Economics, 13e Roger A. Arnold
+Ebook for; Solutions Manual For; Test Bank for Economics for Today, 10e Irvin B. Tucker
+Ebook for; Solutions Manual For Physics for Scientists and Engineers with Modern Physics, Technology Update 9e Raymond  Serway, John Jewett
+Ebook for; Solutions Manual For; Test Bank for Mass Media Law, 20e Clay Calvert, Dan Kozlowski
+Ebook for; Solutions Manual For; Test Bank for Strategic Management Concepts and Cases, 2e Dyer, Godfrey, Jensen, Bryce
+Ebook for; Test Bank for Child Psychology A Canadian Perspective, 3e Alastair Younger, Scott Adler, Ross Vas
+Ebook for; Solutions Manual For Electrochemical Engineering, 1e Thomas Fuller
+Ebook for; Solutions Manual For; Test Bank for Corporate Finance, 4th Canadian Edition, 4e Jonathan Berk, Peter DeMarzo, David Stangeland
+Ebook for; Solutions Manual For; Test Bank for College Accounting, Chapters 1-27, 23e James Heintz, Robert Parry
+Ebook for; Solutions Manual For; Test Bank for Corporate Finance, 4e Jonathan Berk, Peter DeMarzo
+```
+
 ### Match Spaces Between First and Last Names And Substitute with `_`
 Given:
 
