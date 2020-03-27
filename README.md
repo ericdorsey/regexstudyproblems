@@ -12,6 +12,7 @@
 [Regex Pattern To Account For All The Options In A Config File](#regex-pattern-to-account-for-all-the-options-in-a-config-file)  
 [Match Certain c's and v's Followed by Numbers](#match-certain-cs-and-vs-followed-by-numbers)  
 [Match Letters With Spaces](#match-letters-with-spaces)  
+[Remove Everything After The Second Colon](#remove-everything-after-the-second-colon)  
 
 
 ### Match Times or "n/a"
@@ -472,3 +473,18 @@ eeeeeeeee
 Match and capture the matching strings above, but not the non matching strings.
 
 (From: https://www.reddit.com/r/regex/comments/fpca5k/letters_with_spaces/)
+
+### Remove Everything After The Second Colon
+
+Given 
+
+> I want to remove everything after the second colon
+
+```
+test:test@test.com:0.00sfs000:0.035r000:0.035rtg00
+```
+
+#### Goal
+Match and capture `test:test@test.com` from the above example data
+
+(From: https://www.reddit.com/r/regex/comments/foes77/remove_everything_after_second_colon_help/)
