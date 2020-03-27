@@ -442,3 +442,32 @@ Match and capture `c` followed by a digit in the range of 1 through 5, or `v` fo
 (use examples of matching and non matching above)
 
 (From: https://www.reddit.com/r/regex/comments/fd7i20/basic_python_matching_regex_help/)
+
+### Match Letters With Spaces
+
+> Letters with spaces
+> I know its quite easy stuff but I dont work with regex much. Say I want something like "e e e e e" to be caught by the rule, how would I do it? "e e e" and " e e e e e e e e " could get caught in the rule aswell.
+
+Examples of matching strings:
+
+```
+e e e e e
+e e e
+b b b
+e e e e e e e e
+a a a
+z z z
+```
+
+Examples of non matching strings:
+
+```
+eeeeeeeeeeeeeeee
+ee
+eeeeeeeee
+```
+
+#### Goal
+Match and capture the matching strings above, but not the non matching strings.
+
+(From: https://www.reddit.com/r/regex/comments/fpca5k/letters_with_spaces/)
