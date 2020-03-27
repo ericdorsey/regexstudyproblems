@@ -11,6 +11,7 @@
 [Grab The Font Family Name From A URL](#grab-the-font-family-name-from-a-url)  
 [Regex Pattern To Account For All The Options In A Config File](#regex-pattern-to-account-for-all-the-options-in-a-config-file)  
 [Match Certain c's and v's Followed by Numbers](#match-certain-cs-and-vs-followed-by-numbers)  
+[Match Letters With Spaces](#match-letters-with-spaces)  
 
 
 ### Match Times or "n/a"
