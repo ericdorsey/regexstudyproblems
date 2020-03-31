@@ -13,6 +13,7 @@
 [Match Certain c's and v's Followed by Numbers](#match-certain-cs-and-vs-followed-by-numbers)  
 [Match Letters With Spaces](#match-letters-with-spaces)  
 [Remove Everything After The Second Colon](#remove-everything-after-the-second-colon)  
+[Capture Price And Vendor](#capture-price-and-vendor)  
 
 
 ### Match Times or "n/a"
@@ -488,3 +489,19 @@ test:test@test.com:0.00sfs000:0.035r000:0.035rtg00
 Match and capture `test:test@test.com` from the above example data
 
 (From: https://www.reddit.com/r/regex/comments/foes77/remove_everything_after_second_colon_help/)
+
+
+### Capture Price And Vendor 
+
+Given 
+
+```
+Your credit card purchase for $15.99 at NETFLIX.COM was approved.
+Your credit card purchase for $5.03 at FOO.NET was approved.
+Your 
+```
+
+#### Goal
+Match and capture the price and vendor in the above lines (ie, $15.99 and "NETFLIX.COM" from the first line)
+
+(From: https://www.reddit.com/r/regex/comments/fr8jlr/trying_to_remove_everything_except_price_1599_and/)
