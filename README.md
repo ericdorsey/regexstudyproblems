@@ -14,7 +14,7 @@
 [Match Letters With Spaces](#match-letters-with-spaces)  
 [Remove Everything After The Second Colon](#remove-everything-after-the-second-colon)  
 [Capture Price And Vendor](#capture-price-and-vendor)  
-
+[Match Full Path Up To, But Not After, Final ](#match-full-path-up-to-but-not-after-final-/)  
 
 ### Match Times or "n/a"
 > Beginner regex question, example within
@@ -505,3 +505,20 @@ Your
 Match and capture the price and vendor in the above lines (ie, $15.99 and "NETFLIX.COM" from the first line)
 
 (From: https://www.reddit.com/r/regex/comments/fr8jlr/trying_to_remove_everything_except_price_1599_and/)
+
+### Match Full Path Up To, But Not After, Final `/`
+
+Given 
+```
+/path/to/directory/is/3xtre3ml3y/l0ng/it/w0n/t/st0o/p/all/the/time
+/path/to/l0ng/it/direct0ry/w0n/t/st0o/p/all/the/-279
+/path/to/directory/is/3xtre3ml3y/l0ng/it/w0n/t/st0p/a/even/longer/path/?foo
+/short/one/barbaz
+```
+
+#### Goal
+Match and capture up until the last `/`, but nothing after it. 
+
+For example, in line one, match and capture `/path/to/directory/is/3xtre3ml3y/l0ng/it/w0n/t/st0o/p/all/the/`
+
+(From: https://www.reddit.com/r/regex/comments/fpk97s/pulling_directory_path_it_trails_on_some_paths/)
