@@ -498,7 +498,7 @@ Given
 ```
 Your credit card purchase for $15.99 at NETFLIX.COM was approved.
 Your credit card purchase for $5.03 at FOO.NET was approved.
-Your 
+Your credit card purchase for $157.00 at AMAZON.COM was approved.
 ```
 
 #### Goal
