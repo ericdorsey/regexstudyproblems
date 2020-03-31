@@ -14,7 +14,7 @@
 [Match Letters With Spaces](#match-letters-with-spaces)  
 [Remove Everything After The Second Colon](#remove-everything-after-the-second-colon)  
 [Capture Price And Vendor](#capture-price-and-vendor)  
-[Match Full Path Up To, But Not After, Final ](#match-full-path-up-to-but-not-after-final-&#47;)  
+[Match Full Path Up To, But Not After, Final ](#match-full-path-up-to-but-not-after-final-foward-slash)  
 
 ### Match Times or "n/a"
 > Beginner regex question, example within
@@ -506,7 +506,7 @@ Match and capture the price and vendor in the above lines (ie, $15.99 and "NETFL
 
 (From: https://www.reddit.com/r/regex/comments/fr8jlr/trying_to_remove_everything_except_price_1599_and/)
 
-### Match Full Path Up To, But Not After, Final `/`
+### Match Full Path Up To, But Not After, Final Forward Slash
 
 Given 
 ```
