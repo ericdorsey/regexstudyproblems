@@ -14,7 +14,7 @@
 [Match Letters With Spaces](#match-letters-with-spaces)  
 [Remove Everything After The Second Colon](#remove-everything-after-the-second-colon)  
 [Capture Price And Vendor](#capture-price-and-vendor)  
-[Match Full Path Up To, But Not After, Final ](#match-full-path-up-to-but-not-after-final-foward-slash)  
+[Match Full Path Up To, But Not After, Final Foward Slash](#match-full-path-up-to-but-not-after-final-forward-slash)  
 
 ### Match Times or "n/a"
 > Beginner regex question, example within
