@@ -15,6 +15,7 @@
 [Remove Everything After The Second Colon](#remove-everything-after-the-second-colon)  
 [Capture Price And Vendor](#capture-price-and-vendor)  
 [Match Full Path Up To, But Not After, Final Foward Slash](#match-full-path-up-to-but-not-after-final-forward-slash)  
+[Get Only The Numbers Of The String](#get-only-the-numbers-of-the-string)  
 
 
 ### Match Times or "n/a"
