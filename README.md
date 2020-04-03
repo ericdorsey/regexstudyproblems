@@ -16,6 +16,7 @@
 [Capture Price And Vendor](#capture-price-and-vendor)  
 [Match Full Path Up To, But Not After, Final Foward Slash](#match-full-path-up-to-but-not-after-final-forward-slash)  
 
+
 ### Match Times or "n/a"
 > Beginner regex question, example within
 > I have the text:
@@ -522,3 +523,21 @@ Match and capture up until the last `/`, but nothing after it.
 For example, in line one, match and capture `/path/to/directory/is/3xtre3ml3y/l0ng/it/w0n/t/st0o/p/all/the/`
 
 (From: https://www.reddit.com/r/regex/comments/fpk97s/pulling_directory_path_it_trails_on_some_paths/)
+
+### Get Only The Numbers Of The String
+
+Given
+
+```
+5 EURO Inclusive meal
+15/10 EURO
+15/10/5 EURO
+15/10/5 EUR
+```
+
+#### Goal
+Match and capture only the numbers and the "EUR" or "EURO" from above lines. 
+
+Ex; from first line match and capture `5` and `EURO`, and from the 3rd line, match and capture `15`, `10`, `5` and `EURO`
+
+(From: https://www.reddit.com/r/regex/comments/ft3nhm/get_only_the_numbers_of_the_string/)
