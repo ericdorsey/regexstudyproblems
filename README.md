@@ -16,7 +16,7 @@
 [Capture Price And Vendor](#capture-price-and-vendor)  
 [Match Full Path Up To, But Not After, Final Foward Slash](#match-full-path-up-to-but-not-after-final-forward-slash)  
 [Get Only Numbers and EUR or EURO](#get-only-numbers-and-eur-or-euro)  
-[Regex for matching anything that isn't an empty string and doesn't start with “main.” or “static/”](#regex-for-matching-anything-that-isnt-an-empty-string-and-doesnt-start-with-main.-or-static)
+[Regex for matching anything that isn't an empty string and doesn't start with “main.” or “static/”](#regex-for-matching-anything-that-isnt-an-empty-string-and-doesnt-start-with-main-or-static)
 
 
 ### Match Times or "n/a"
