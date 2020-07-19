@@ -16,7 +16,7 @@
 [Capture Price And Vendor](#capture-price-and-vendor)  
 [Match Full Path Up To, But Not After, Final Foward Slash](#match-full-path-up-to-but-not-after-final-forward-slash)  
 [Get Only Numbers and EUR or EURO](#get-only-numbers-and-eur-or-euro)  
- 
+[Regex for matching anything that isn't an empty string and doesn't start with “main.” or “static/”](#regex-for-matching-anything-that-isnt-an-empty-string-and-doesnt-start-with-main.-or-static)
 
 
 ### Match Times or "n/a"
@@ -543,3 +543,16 @@ Match and capture only the numbers and the "EUR" or "EURO" from above lines.
 Ex; from first line match and capture `5` and `EURO`, and from the 3rd line, match and capture `15`, `10`, `5` and `EURO`
 
 (From: https://www.reddit.com/r/regex/comments/ft3nhm/get_only_the_numbers_of_the_string/)
+
+### Regex for matching anything that isn't an empty string and doesn't start with “main.” or “static/”
+
+#### Goal 
+
+> i need a regex for matching anything that isn't an empty string and doesn't start with "main." or "static/".
+
+> "" no match
+> "home" match
+> "home/index" match
+> "main.023asdv" no match
+> "static/asset1" no match
+> "static/asset2" no match
