@@ -16,7 +16,8 @@
 [Capture Price And Vendor](#capture-price-and-vendor)  
 [Match Full Path Up To, But Not After, Final Foward Slash](#match-full-path-up-to-but-not-after-final-forward-slash)  
 [Get Only Numbers and EUR or EURO](#get-only-numbers-and-eur-or-euro)  
-[Regex for matching anything that isn't an empty string and doesn't start with “main.” or “static/”](#regex-for-matching-anything-that-isnt-an-empty-string-and-doesnt-start-with-main-or-static)
+[Regex for matching anything that isn't an empty string and doesn't start with “main.” or “static/”](#regex-for-matching-anything-that-isnt-an-empty-string-and-doesnt-start-with-main-or-static)  
+[Match Only Valid ConfigMapKey Names](#match-only-valid-configmapkey-names)  
 
 
 ### Match Times or "n/a"
@@ -556,3 +557,35 @@ Ex; from first line match and capture `5` and `EURO`, and from the 3rd line, mat
 > "main.023asdv" no match
 > "static/asset1" no match
 > "static/asset2" no match
+
+### Match Only Valid ConfigMapKey Names
+
+Given 
+
+Valid Key Names:
+
+```
+.auth_token
+Key.pem
+config_file
+.12.foo
+.a_
+.15-foo
+.foo.15
+```
+
+Invalid Key Names:
+
+```
+Token..properties
+auth file.json
+_password.txt
+```
+
+#### Goal
+
+Match only the valid key names above. Valid key names description from Kubernetes Up and Running, 2nd Edition, p. 161:
+
+> They may begin with a dot followed by a letter or number. (Allowed) Following characters include dots, dashes, and underscores. Dots cannot be repeated and dots and underscores and dashes cannot be adjacent to each other. 
+
+(From: Kubernetes Up and Running 2nd Edition)
